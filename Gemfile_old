@@ -1,0 +1,13 @@
+source :gemcutter
+
+gem 'json'
+gem 'sinatra'
+gem 'sinatra-jsonp'
+gem 'sinatra-synchrony'
+gem 'typhoeus'
+gem 'thin'
+gem 'eventmachine'
+
+group :development do
+  gem 'shotgun'
+end
